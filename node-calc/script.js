@@ -1,15 +1,15 @@
 var rl = require('readline-sync')
 function addition(num1, num2){
-    return "The result is: " + (Number(num1)+Number(num2))
+    return "The result is: " + (Number(num1) + Number(num2))
 }
 function subtraction(num1, num2){
-    return(Number(num1)-Number(num2))
+    return(Number(num1) - Number(num2))
 }
 function multiplication(num1, num2){
-    return(Number(num1)*Number(num2))
+    return(Number(num1) * Number(num2))
 }
 function division(num1, num2){
-    return(Number(num1)/Number(num2))
+    return(Number(num1) / Number(num2))
 }
 
 var firstNum = rl.question("Please enter your first number: ", (userInput) => {console.log(userInput)});
